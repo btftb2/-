@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<title>审稿人页面</title>
+		<link rel="stylesheet" type="text/css" href="editor.css">
+	</head>
+	<body class="haha">
+		<div class="rongqi">
+		<table class="biaoge">
+			<tr>
+				<th>稿件ID</th><th>作者</th><th>题目</th><th>作者电子邮件</th><th>打开稿件</th><th>是否审理</th><th>是否发表</th><th>截止时间</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>朱自清</td>
+				<td>匆匆</td>
+				<td>123@qq.com</td>
+				<td><button class="files">打开</button></td>
+				<td><button class="shen">未审</button></td>
+				<td><button class="jieguo">否</button></td>
+				<td>2019.12.20</td>
+			</tr>
+		</table>
+		</div>
+		<script type="text/javascript">
+			var files = document.querySelector(".files");
+			var shen = document.querySelector(".shen");
+			var jieguo = document.querySelector(".jieguo");
+			files.addEventListener('click',function(){
+				window.open("gaojian.html")
+			})
+			shen.addEventListener('click',function(){
+				if (this.innerHTML=="未审") this.innerHTML = "已审";
+				else this.innerHTML = "未审";
+			})
+			jieguo.addEventListener('click',function(){
+				if (this.innerHTML=="否") this.innerHTML = "是";
+				else this.innerHTML = "否";
+			})
+		</script>
+	</body>
+</html>

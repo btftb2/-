@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>投稿人登录</title>
+        <link rel="stylesheet" type="text/css" href="user_login.css"/>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+                <form class="login-form" action="user_registered.php" method="post">
+					<p class="message" style="margin-bottom: 10px; color:#30C4C9">我是投稿人</p>
+                    <input type="text" name="username" placeholder="用户名">
+                    <input type="password" name="password" placeholder="密码">
+					<input type="text" name="realname" placeholder="真实姓名">
+					<input type="text" name="tel" placeholder="联系电话">
+					<input type="text" name="email" placeholder="电子邮箱">
+					<input type="text" name="address" placeholder="居住地址">
+                    <button type="submit">注册</button>
+                    <p class="message">已注册? <a href="user_login.html">登录</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

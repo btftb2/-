@@ -1,0 +1,25 @@
+.haha {
+	text-align: center;
+	background-color: #30C4C9;
+}
+.rongqi {
+	margin-right: auto; 
+	margin-left: auto;
+	background-color: #FFFFFF;
+	font-family: "Roboto", sans-serif;
+	margin-top: 150px;
+	width: 600px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.biaoge {
+	align:center;
+}
+.biaoge button {
+	font-family: "Roboto", sans-serif;
+	background: #30C4C9;
+	color: #FFFFFF;
+	border: none;
+}
+.biaoge button:hover,.biaoge button:active,.biaoge button:focus {
+  background: #20b4b9;
+}

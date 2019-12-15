@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <title>用户投稿</title>
+        <link rel="stylesheet" type="text/css" href="user_contribute.css"/>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+                <form class="login-form" action="user_contribute.php" method="post" enctype="multipart/form-data">
+					<p class="message" style="margin-bottom: 10px; color:#30C4C9">欢迎投稿</p>
+                    <input type="text" name="contributor" placeholder="投稿人">
+                    <input type="text" name="title" placeholder="稿件题目">
+					<input type="text" name="email" placeholder="电子邮箱">
+					<span class="sl-custom-file">
+					    <input type="button" value="点击上传文件" class="haha" style="color: #ffffff; background-color: #30C4C9;">
+					    <input type="file" class="ui-input-file" name="up">
+					</span>
+                    <button type="submit">投稿</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

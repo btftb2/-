@@ -1,0 +1,24 @@
+<html lang="en" class="gr__cdpn_io">
+	<head>
+        <meta charset="UTF-8">
+        <title>《长春理工大学学报》稿件管理系统</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+    </head>
+    <body translate="no" data-gr-c-s-loaded="true">
+        <div class="login-page">
+            <div class="form">
+				<a href="admin_login.html"><button>管理员</button></a>
+                <a href="editor_login.html"><button>审稿人</button></a>
+				<a href="user_login.html"><button>投稿人</button></a>
+				<p class="message">欢迎使用《长春理工大学学报》稿件管理系统</p>
+            </div>
+        </div>
+        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="rendered-js">
+            $('.message a').click(function () {
+                $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+            });
+        </script>
+    </body>
+</html>
